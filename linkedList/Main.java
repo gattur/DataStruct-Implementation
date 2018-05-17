@@ -17,7 +17,7 @@ public class Main {
 		l1.head.getNext().getNext().setNext(new Node(8));
 		l.head=l.recMerge(l.head, l1.head);
 		l.print();
-		System.out.println("Gattu");
+		System.out.println("Gattu"); 
 		Scanner ne=new Scanner(System.in);
 		
 		while(true){
